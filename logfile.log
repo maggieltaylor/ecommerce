@@ -27,3 +27,58 @@
 2021-07-28 08:50:13.253  INFO 23952 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
 2021-07-28 08:50:13.381  INFO 23952 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
 2021-07-28 08:50:13.384  INFO 23952 --- [main] com.example.demo.MaggieApplication       : Started MaggieApplication in 3.485 seconds (JVM running for 4.283)
+2021-07-28 09:00:36.338  INFO 16280 --- [main] com.example.demo.MaggieApplication       : Starting MaggieApplication on DESKTOP-KVU7K8E with PID 16280 (C:\Users\mltay\nd035-c4-Security-and-DevOps\starter_code\target\classes started by mltay in C:\Users\mltay\nd035-c4-Security-and-DevOps)
+2021-07-28 09:00:36.344  INFO 16280 --- [main] com.example.demo.MaggieApplication       : No active profile set, falling back to default profiles: default
+2021-07-28 09:00:37.243  INFO 16280 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-07-28 09:00:37.312  INFO 16280 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 61ms. Found 4 repository interfaces.
+2021-07-28 09:00:37.669  INFO 16280 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$496afeee] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-28 09:00:37.849  INFO 16280 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-07-28 09:00:37.873  INFO 16280 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-07-28 09:00:37.873  INFO 16280 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2021-07-28 09:00:37.965  INFO 16280 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-07-28 09:00:37.965  INFO 16280 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1570 ms
+2021-07-28 09:00:38.069  INFO 16280 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-07-28 09:00:38.130  INFO 16280 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-07-28 09:00:38.163  INFO 16280 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-07-28 09:00:38.218  INFO 16280 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2021-07-28 09:00:38.219  INFO 16280 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2021-07-28 09:00:38.335  INFO 16280 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-07-28 09:00:38.426  INFO 16280 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-07-28 09:00:38.902  INFO 16280 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-07-28 09:00:39.359  WARN 16280 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-07-28 09:00:39.493  INFO 16280 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@45295cfd, org.springframework.security.web.context.SecurityContextPersistenceFilter@102aa5fc, org.springframework.security.web.header.HeaderWriterFilter@7fb5368e, org.springframework.web.filter.CorsFilter@42c9b1ee, org.springframework.security.web.authentication.logout.LogoutFilter@34b462e0, com.example.demo.security.AuthenticationFilter@217c6a1e, com.example.demo.security.AuthenticationVerificationFilter@3fad8636, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@62a81453, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@16890f00, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@306cfb8a, org.springframework.security.web.session.SessionManagementFilter@1ad9d5be, org.springframework.security.web.access.ExceptionTranslationFilter@72bdbfe9, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5b6f3d0b]
+2021-07-28 09:00:39.779  INFO 16280 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-07-28 09:00:40.045  INFO 16280 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-07-28 09:00:40.050  INFO 16280 --- [main] com.example.demo.MaggieApplication       : Started MaggieApplication in 4.044 seconds (JVM running for 4.831)
+2021-07-28 09:01:21.747  INFO 13212 --- [main] com.example.demo.MaggieApplication       : Starting MaggieApplication on DESKTOP-KVU7K8E with PID 13212 (C:\Users\mltay\nd035-c4-Security-and-DevOps\starter_code\target\classes started by mltay in C:\Users\mltay\nd035-c4-Security-and-DevOps)
+2021-07-28 09:01:21.750  INFO 13212 --- [main] com.example.demo.MaggieApplication       : No active profile set, falling back to default profiles: default
+2021-07-28 09:01:22.329  INFO 13212 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-07-28 09:01:22.377  INFO 13212 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 44ms. Found 4 repository interfaces.
+2021-07-28 09:01:22.704  INFO 13212 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9686d17c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-28 09:01:22.897  INFO 13212 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-07-28 09:01:22.916  INFO 13212 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-07-28 09:01:22.917  INFO 13212 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2021-07-28 09:01:23.014  INFO 13212 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-07-28 09:01:23.014  INFO 13212 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1217 ms
+2021-07-28 09:01:23.165  INFO 13212 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-07-28 09:01:23.247  INFO 13212 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-07-28 09:01:23.280  INFO 13212 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-07-28 09:01:23.314  INFO 13212 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2021-07-28 09:01:23.316  INFO 13212 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2021-07-28 09:01:23.389  INFO 13212 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-07-28 09:01:23.468  INFO 13212 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-07-28 09:01:23.926  INFO 13212 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-07-28 09:01:24.365  WARN 13212 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-07-28 09:01:24.441  INFO 13212 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@20d3fff4, org.springframework.security.web.context.SecurityContextPersistenceFilter@4a18e0f1, org.springframework.security.web.header.HeaderWriterFilter@4ca907af, org.springframework.web.filter.CorsFilter@52325940, org.springframework.security.web.authentication.logout.LogoutFilter@f9cd1e6, com.example.demo.security.AuthenticationFilter@7f792530, com.example.demo.security.AuthenticationVerificationFilter@1adfb5b8, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7857cb1d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1fa58a48, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@254cc548, org.springframework.security.web.session.SessionManagementFilter@5a99543b, org.springframework.security.web.access.ExceptionTranslationFilter@6f1163f7, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2a341e3d]
+2021-07-28 09:01:24.537  INFO 13212 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-07-28 09:01:24.675  INFO 13212 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-07-28 09:01:24.678  INFO 13212 --- [main] com.example.demo.MaggieApplication       : Started MaggieApplication in 3.226 seconds (JVM running for 4.433)
+2021-07-28 09:01:27.344  INFO 13212 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-07-28 09:01:27.344  INFO 13212 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-07-28 09:01:27.350  INFO 13212 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2021-07-28 09:01:27.533  INFO 13212 --- [http-nio-8080-exec-2] c.e.demo.controller.UserController       : user Bob has been created successfully
+2021-07-28 09:01:31.359  INFO 13212 --- [http-nio-8080-exec-3] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
