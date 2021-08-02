@@ -210,3 +210,34 @@ insert into user (id, cart_id, password, username) values (null, ?, ?, ?) [23505
 2021-08-02 08:54:28.849  INFO 29216 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2021-08-02 08:54:28.862  INFO 29216 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 13 ms
 2021-08-02 08:54:29.158  INFO 29216 --- [http-nio-8080-exec-2] c.e.demo.controller.UserController       : user Bob has been created successfully
+2021-08-02 12:39:19.516  INFO 27332 --- [main] com.example.demo.MaggieApplication       : Starting MaggieApplication on DESKTOP-KVU7K8E with PID 27332 (C:\Users\mltay\nd035-c4-Security-and-DevOps\starter_code\target\classes started by mltay in C:\Users\mltay\nd035-c4-Security-and-DevOps)
+2021-08-02 12:39:19.520  INFO 27332 --- [main] com.example.demo.MaggieApplication       : No active profile set, falling back to default profiles: default
+2021-08-02 12:39:20.185  INFO 27332 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-08-02 12:39:20.243  INFO 27332 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 50ms. Found 4 repository interfaces.
+2021-08-02 12:39:20.655  INFO 27332 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$17f36ee5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-02 12:39:20.884  INFO 27332 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-08-02 12:39:20.912  INFO 27332 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-02 12:39:20.912  INFO 27332 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2021-08-02 12:39:21.011  INFO 27332 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-08-02 12:39:21.012  INFO 27332 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1422 ms
+2021-08-02 12:39:21.136  INFO 27332 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-08-02 12:39:21.239  INFO 27332 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-08-02 12:39:21.278  INFO 27332 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-08-02 12:39:21.341  INFO 27332 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2021-08-02 12:39:21.343  INFO 27332 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2021-08-02 12:39:21.529  INFO 27332 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-08-02 12:39:21.683  INFO 27332 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-08-02 12:39:22.249  INFO 27332 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-08-02 12:39:22.733  WARN 27332 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-08-02 12:39:22.801  INFO 27332 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@70d7a49b, org.springframework.security.web.context.SecurityContextPersistenceFilter@c7269ad, org.springframework.security.web.header.HeaderWriterFilter@65da1cbe, org.springframework.web.filter.CorsFilter@4509b7, org.springframework.security.web.authentication.logout.LogoutFilter@4bab804f, com.example.demo.security.AuthenticationFilter@71f10042, com.example.demo.security.AuthenticationVerificationFilter@5dbc4598, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@38445703, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3023f157, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1002d1c8, org.springframework.security.web.session.SessionManagementFilter@1d67348a, org.springframework.security.web.access.ExceptionTranslationFilter@3a17acd4, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@462f8fe9]
+2021-08-02 12:39:22.885  INFO 27332 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-02 12:39:23.010  INFO 27332 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-02 12:39:23.013  INFO 27332 --- [main] com.example.demo.MaggieApplication       : Started MaggieApplication in 3.889 seconds (JVM running for 4.737)
+2021-08-02 12:39:44.891  INFO 27332 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-02 12:39:44.892  INFO 27332 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-08-02 12:39:44.901  INFO 27332 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2021-08-02 12:39:45.064  INFO 27332 --- [http-nio-8080-exec-1] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2021-08-02 12:39:45.151 ERROR 27332 --- [http-nio-8080-exec-1] c.e.d.security.UserDetailsServiceImpl    : username Bob not found
+2021-08-02 12:40:00.689  INFO 27332 --- [http-nio-8080-exec-3] c.e.demo.controller.UserController       : user Bob has been created successfully
